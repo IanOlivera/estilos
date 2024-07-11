@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .container input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  .operaciones button {
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .operaciones button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    font-size: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .fas {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
